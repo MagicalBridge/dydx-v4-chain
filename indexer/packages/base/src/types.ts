@@ -1,6 +1,9 @@
 import { Big } from 'big.js';
 import { BigNumber } from 'bignumber.js';
 
+// Re-export types to ensure they are available in declaration files
+export { Big, BigNumber };
+
 export type BigNumberable = BigNumber | string | number;
 
 export type Bigable = Big | string | number;

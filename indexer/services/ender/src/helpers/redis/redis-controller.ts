@@ -1,7 +1,5 @@
 import { redis as redisLib } from '@dydxprotocol-indexer/redis';
-import {
-  RedisClient,
-} from 'redis';
+import { RedisClient } from 'redis';
 
 import config from '../../config';
 

@@ -61,7 +61,7 @@ import {
 import { handleValidationErrors } from '../../../request-helpers/error-handler';
 import ExportResponseCodeStats from '../../../request-helpers/export-response-code-stats';
 
-const router = express.Router();
+const router: express.Router = express.Router();
 const controllerName: string = 'bridging-controller';
 
 // set the skip client options to use the skip rpc.
@@ -87,7 +87,7 @@ const turnkeyGasClient = new Turnkey({
 
 const turnkeyGasFeePayer = new TurnkeySigner({
   organizationId: config.TURNKEY_ORGANIZATION_ID,
-  client: turnkeyGasClient.apiClient(),
+  client: turnkeyGasClient.apiClient() as any,
 });
 
 interface BridgeResponse {

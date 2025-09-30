@@ -13,7 +13,7 @@ export default function server(): Express {
 
   app.use(responseTime({ suffix: false }));
 
-  app.use(expressRequestId());
+  app.use(expressRequestId() as any);
 
   app.use(resBodyCapture);
 

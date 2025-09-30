@@ -212,7 +212,7 @@ export function getSvmSigner(suborgId: string, signWith: string) {
 
   const turnkeySigner = new TurnkeySigner({
     organizationId: suborgId,
-    client: serverClient.apiClient(),
+    client: serverClient.apiClient() as any,
   });
 
   // eslint-disable-next-line @typescript-eslint/require-await

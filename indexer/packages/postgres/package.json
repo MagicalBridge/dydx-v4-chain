@@ -6,6 +6,7 @@
   "devDependencies": {
     "@dydxprotocol-indexer/dev": "workspace:^0.0.1",
     "@types/big.js": "^6.1.5",
+    "@types/bignumber.js": "^5.0.0",
     "@types/jest": "^28.1.4",
     "@types/lodash": "^4.14.182",
     "@types/luxon": "^3.0.0",
@@ -42,6 +43,7 @@
     "@dydxprotocol-indexer/v4-proto-parser": "workspace:^0.0.1",
     "@dydxprotocol-indexer/v4-protos": "workspace:^0.0.1",
     "big.js": "^6.2.1",
+    "bignumber.js": "^9.0.2",
     "dotenv-flow": "^3.2.0",
     "knex": "^0.21.19",
     "lodash": "^4.17.21",

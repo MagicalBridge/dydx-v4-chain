@@ -23,6 +23,7 @@
     "@aws-sdk/client-lambda": "^3.353.0",
     "@dydxprotocol-indexer/base": "workspace:^0.0.1",
     "@milahu/patch-package": "6.4.14",
+    "bignumber.js": "^9.0.2",
     "dotenv-flow": "^3.2.0",
     "kafkajs": "^2.2.4",
     "lodash": "^4.17.21",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@dydxprotocol-indexer/dev": "workspace:^0.0.1",
     "@types/aws-lambda": "^8.10.108",
+    "@types/bignumber.js": "^5.0.0",
     "@types/jest": "^28.1.4",
     "@types/lodash": "^4.14.182",
     "@types/node": "^18.0.3",

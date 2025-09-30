@@ -7,14 +7,14 @@
     "services/*"
   ],
   "scripts": {
-    "build:all": "pnpm recursive run build --workspace-concurrency=Infinity",
-    "build:prod:all": "pnpm recursive run build:prod",
+    "build:all": "pnpm -r --workspace-concurrency=Infinity run build",
+    "build:prod:all": "pnpm -r run build:prod",
     "build:watch:all": "pnpm run --parallel build:watch",
     "lint:all": "pnpm run --parallel lint",
     "lint:fix:all": "pnpm run --parallel lint:fix",
-    "coverage:all": "pnpm recursive run --workspace-concurrency=1 coverage",
-    "test:all": "pnpm recursive run --workspace-concurrency=1 test",
-    "test:clean:all": "pnpm recursive run --workspace-concurrency=1 test:clean",
+    "coverage:all": "pnpm -r --workspace-concurrency=1 run coverage",
+    "test:all": "pnpm -r --workspace-concurrency=1 run test",
+    "test:clean:all": "pnpm -r --workspace-concurrency=1 run test:clean",
     "postinstall": "patch-package"
   },
   "author": "",

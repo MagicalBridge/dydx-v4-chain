@@ -25,6 +25,7 @@
     "@dydxprotocol-indexer/v4-protos": "workspace:^0.0.1",
     "@milahu/patch-package": "6.4.14",
     "axios": "^1.2.1",
+    "bignumber.js": "^9.0.2",
     "body-parser": "^1.20.0",
     "bufferutil": "^4.0.9",
     "cors": "^2.8.5",
@@ -42,6 +43,7 @@
   "devDependencies": {
     "@dydxprotocol-indexer/dev": "workspace:^0.0.1",
     "@types/body-parser": "^1.19.2",
+    "@types/bignumber.js": "^5.0.0",
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/express-request-id": "^1.4.3",
