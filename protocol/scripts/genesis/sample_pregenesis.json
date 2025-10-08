@@ -28,7 +28,7 @@
           {
             "req_referred_volume_quote_quantums": "50000000000000",
             "req_staked_whole_coins": 100000000,
-            "taker_fee_share_ppm": 200000
+            "taker_fee_share_ppm": 250000
           }
         ]
       }
@@ -131,6 +131,7 @@
     },
     "clob": {
       "block_rate_limit_config": {
+        "max_leverage_updates_per_n_blocks": [],
         "max_short_term_order_cancellations_per_n_blocks": [],
         "max_short_term_orders_and_cancels_per_n_blocks": [
           {
